@@ -30,7 +30,7 @@ jobs:
         working-directory: .
 
       - name: Build web
-        run: echo "y" | uv run flet build web --base-url flet-tic-tac-toe --route-url-strategy hash -o build/web
+        run: echo "y" | uv run flet build web --base-url flet-quatro --route-url-strategy hash -o build/web
 
       - uses: actions/configure-pages@v4
 
